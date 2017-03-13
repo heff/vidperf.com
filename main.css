@@ -1,0 +1,26 @@
+#main-video {
+  width: 100%;
+}
+
+.details {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+}
+
+.details > * {
+  flex-grow: 1;
+  width: 50%;
+}
+
+.event-list {
+  border: 1px solid #ccc;
+  height: 200px;
+  overflow-y: scroll;
+}
+
+table.metrics-table {
+  display: table;
+  /*width: auto;*/
+  /*flex-grow: 1;*/
+}
